@@ -2,11 +2,6 @@ import React from "react";
 import WalletRow from "./WalletRow"; // Assuming WalletRow component is imported
 import classes from "./styles.module.scss"; // Assuming the classes is imported
 import { useWalletBalances, usePrices } from "./hooks"; // Assuming the classes is imported
-
-interface Props {
-  // Add necessary props if required
-}
-
 interface WalletBalance {
   currency: string;
   amount: number;
